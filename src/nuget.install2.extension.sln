@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget.install2.extension", "nuget.install2.extension\nuget.install2.extension.csproj", "{0A83AF1C-2263-4676-A2C9-D79A72D80C9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget.install2.extension.Specs", "nuget.install2.extension.Specs\nuget.install2.extension.Specs.csproj", "{BCAD2004-A984-43F7-A82B-41392FA8319F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A83AF1C-2263-4676-A2C9-D79A72D80C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A83AF1C-2263-4676-A2C9-D79A72D80C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A83AF1C-2263-4676-A2C9-D79A72D80C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A83AF1C-2263-4676-A2C9-D79A72D80C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCAD2004-A984-43F7-A82B-41392FA8319F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCAD2004-A984-43F7-A82B-41392FA8319F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCAD2004-A984-43F7-A82B-41392FA8319F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCAD2004-A984-43F7-A82B-41392FA8319F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
