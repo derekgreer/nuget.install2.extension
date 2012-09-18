@@ -25,7 +25,7 @@ namespace nuget.install2.extension.Specs
                     sr.WriteLine("NHibernate 3.2.0.4000");
                 }
 
-                _subject = new Install2(PackageRepositoryFactory.Default, PackageSourceProvider.Default);
+                _subject = new Install2(PackageRepositoryFactory.Default, new PackageSourceProvider(Settings.LoadDefaultSettings()));
                 _subject.Arguments.Add("dependencies.txt");
                 _subject.OutputDirectory = "OutputDir";
             };
@@ -52,7 +52,7 @@ namespace nuget.install2.extension.Specs
                     sr.WriteLine("NHibernate 3.2.0.4000");
                 }
                 
-                _subject = new Install2(PackageRepositoryFactory.Default, PackageSourceProvider.Default);
+                _subject = new Install2(PackageRepositoryFactory.Default, new PackageSourceProvider(Settings.LoadDefaultSettings()));
                 _subject.Arguments.Add("dependencies.txt");
                 _subject.ExcludeVersion = true;
 

@@ -1,7 +1,7 @@
 packages = [
-[ "NuGet.CommandLine",             "1.5.20905.5" ],
-[ "NuGet.Core",                    "1.5.20902.9026" ],
-[ "Machine.Specifications",        "0.4.9.0" ],
+[ "NuGet.CommandLine",             "2.0.40001" ],
+[ "NuGet.Core",                    "2.0.1" ],
+[ "Machine.Specifications",        "0.5.8" ],
 [ "Moq",                           "4.0.10827" ]
 ]
 
